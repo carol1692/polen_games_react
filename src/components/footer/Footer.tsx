@@ -2,9 +2,11 @@ export default function Footer() {
     return(
         <> 
             {/* FOOTER */}
-            <div className="bg-white w-full h-6 bg-repeat-x bg-size-[50px] bg-[url('/circle_reverse.svg')]" ></div>
-            <footer className="bg-[#f2d88f] p-4 flex justify-center items-center">
-                <p className="text-(--blush-color) font-bold">Ana Lemos - 2025</p>
+            <footer className="w-full flex flex-col justify-center items-center rounded-b-2xl bg-(--bg-color)">
+                <div className="bg-white w-full h-5 bg-repeat-x bg-size-[40px] bg-[url('/circle_reverse.svg')]"></div>
+                <div className="flex justify-center items-center">
+                     <p className="text-(--merlot-color) font-bold pb-4 comfortaa-font text-sm sm:text-base py-3 sm:py-4 ">Ana Lemos - 2025</p>
+                </div>
             </footer>
         </>
     )
